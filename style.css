@@ -44,6 +44,9 @@ h2 {
     padding-top: 20px;
     color: #5c4562;
 }
+bold{
+    -webkit-text-stroke:1px black;
+}
 #current {
     padding-bottom: 10px;
     color: black;
@@ -68,4 +71,11 @@ h2 {
 }
 #tod {
     text-align: center;
+}
+#clear {
+ clear:both;
+}
+#quote {
+    background-color: red;
+font-size: 10px;
 }
