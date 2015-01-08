@@ -2,20 +2,17 @@
     font-family: "quicksand";
     src: url("fonts/Quicksand-Regular.otf");
 }
-
 @font-face {
     font-family: "aftaserif";
     src: url("fonts/AftaSerifThin-Regular.otf");
 }
-
 body {
-    font-family: aftaserif;
+    font-family: quicksand;
     margin: 0 auto;
     max-width: 1024px;
     background-color: white;
 }
 nav {
-    font-family: quicksand;
     width: 100%
 }
 nav ul {
@@ -47,5 +44,6 @@ nav a:hover {
     border-bottom: 3px solid black;
 }
 #wrapper {
-    background:black;
+    font-family: aftaserif;
+    background: black;
 }
