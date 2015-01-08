@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "quicksand";
+    src: url("fonts/Quicksand-Regular.otf");
+}
+
+@font-face {
+    font-family: "aftaserif";
+    src: url("fonts/AftaSerifThin-Regular.otf");
+}
+
+body {
+    font-family: aftaserif;
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: white;
+}
+nav {
+    font-family: quicksand;
+    width: 100%
+}
+nav ul {
+    display: table;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+}
+nav li {
+    display: table-cell;
+    text-align: center;
+}
+nav li:first-child {
+    text-align: left;
+}
+nav li:last-child {
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+nav a:hover {
+    color: black;
+}
+#current {
+    padding-bottom: 10px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+#wrapper {
+    background:black;
+}
