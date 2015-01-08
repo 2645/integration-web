@@ -50,7 +50,7 @@ bold {
 #current {
     padding-bottom: 10px;
     color: black;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 #wrapper {
     font-family: aftaserif;
@@ -58,10 +58,14 @@ bold {
 #leftColumn {
     float: left;
 }
-#regText ul {
+.regText ul {
     list-style-image: url("images/listSymbol.png");
 }
-#regText li {
+
+#modules td {
+
+}
+.regText li {
     margin-left: -40px;
     padding-bottom: 20px;
 }
@@ -73,7 +77,11 @@ bold {
 }
 #clear {
     clear: both;
+    padding: 0px;
+    margin: 0px;
 }
 #quote {
+    position:relative;
+    top: 0px;
     font-size: 30px;
 }
