@@ -9,7 +9,8 @@
 body {
     font-family: quicksand;
     margin: 0 auto;
-    max-width: 1024px;
+    width:64%;
+    max-width: 1400;
     background-color: white;
 }
 nav {
@@ -39,6 +40,7 @@ nav a:hover {
     color: black;
 }
 h2 {
+    font-family: quicksand;
     padding-top: 20px;
     color: #5c4562;
 }
@@ -56,7 +58,12 @@ h2 {
 #regText ul{
     list-style-image: url("images/listSymbol.png");
 }
+#regText li{
+    margin-left: -40px;
+  padding-bottom: 20px;
+}
 #rightColumn {
+
     float: right;
 }
 #tod {
