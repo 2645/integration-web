@@ -9,7 +9,7 @@
 body {
     font-family: quicksand;
     margin: 0 auto;
-    width:64%;
+    width: 64%;
     max-width: 1400;
     background-color: white;
 }
@@ -44,8 +44,8 @@ h2 {
     padding-top: 20px;
     color: #5c4562;
 }
-bold{
-    -webkit-text-stroke:1px black;
+bold {
+    -webkit-text-stroke: 1px black;
 }
 #current {
     padding-bottom: 10px;
@@ -58,24 +58,22 @@ bold{
 #leftColumn {
     float: left;
 }
-#regText ul{
+#regText ul {
     list-style-image: url("images/listSymbol.png");
 }
-#regText li{
+#regText li {
     margin-left: -40px;
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 #rightColumn {
-
     float: right;
 }
 #tod {
     text-align: center;
 }
 #clear {
- clear:both;
+    clear: both;
 }
 #quote {
-    background-color: red;
-font-size: 10px;
+    font-size: 30px;
 }
