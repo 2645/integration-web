@@ -53,8 +53,8 @@ h2 {
 #leftColumn {
     float: left;
 }
-#regText{
-    
+#regText ul{
+    list-style-image: url("images/listSymbol.png");
 }
 #rightColumn {
     float: right;
