@@ -38,6 +38,10 @@ nav a {
 nav a:hover {
     color: black;
 }
+h2 {
+    padding-top: 20px;
+    color: #5c4562;
+}
 #current {
     padding-bottom: 10px;
     color: black;
@@ -45,4 +49,16 @@ nav a:hover {
 }
 #wrapper {
     font-family: aftaserif;
+}
+#leftColumn {
+    float: left;
+}
+#regText{
+    
+}
+#rightColumn {
+    float: right;
+}
+#tod {
+    text-align: center;
 }
