@@ -68,6 +68,9 @@ bold {
 .right {
     float: right;
 }
+.quotations{
+    font-size: 40px;
+}
 #tod {
     text-align: center;
 }
