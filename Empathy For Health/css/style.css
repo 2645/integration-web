@@ -55,6 +55,11 @@ bold {
 #wrapper {
     font-family: aftaserif;
 }
+#backToTop{
+    position:fixed;
+    top:90%;
+    right:15%;
+}
 .left {
     float: left;
 }
@@ -72,4 +77,24 @@ bold {
     clear: both;
     padding: 0px;
     margin: 0px;
+}
+footer {
+    border-top: 1px #24385D solid;  
+    
+}
+footer ul {
+    display: table;
+    list-style: none;
+    width: 100%;
+    padding: 0px;
+}
+footer li {
+    display: table-cell;
+    text-align: center;
+}
+footer li:first-child {
+    text-align: left;
+}
+footer li:last-child {
+    text-align: right;
 }

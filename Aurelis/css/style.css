@@ -59,6 +59,29 @@ bold {
 #subNav {
     width:100%
 }
+
+#subNav ul{
+    display:table;
+    list-style: none;
+    width:100%;
+    padding:0px;
+}
+#subNav li{
+    display:table-cell;
+    text-align: center;
+}
+#subNav li div{
+    background-color:red;
+    width:98%;
+    height:0;
+    padding-top:46%;
+    padding-bottom: 54;
+}
+#backToTop{
+    position:fixed;
+    top:90%;
+    right:15%;
+}
 .left {
     float: left;
 }
