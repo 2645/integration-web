@@ -59,6 +59,11 @@ bold {
 #subNav {
     width:100%
 }
+#backToTop{
+    position:fixed;
+    top:90%;
+    right:15%;
+}
 .left {
     float: left;
 }
