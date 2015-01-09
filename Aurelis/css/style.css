@@ -40,6 +40,7 @@ nav a:hover {
     color: black;
 }
 h2 {
+    font-size:30px;
     font-family: quicksand;
     padding-top: 20px;
     color: #5c4562;
@@ -54,6 +55,9 @@ bold {
 }
 #wrapper {
     font-family: aftaserif;
+}
+#subNav {
+    width:100%
 }
 .left {
     float: left;
