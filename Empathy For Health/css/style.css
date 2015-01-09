@@ -82,18 +82,22 @@ bold {
 footer {
     border-top: 1px #24385D solid;
     text-align: center;
+
 }
 footer ul {
     display: table;
     list-style: none;
     width: 100%;
-    padding: 0px;
+    margin-left: -20px;
 }
 footer li {
     display: table-cell;
-    text-align: center;
 }
 footer img {
-    margin-left: -100px;
+    margin-left: -65px;
     height: 50px;
+}
+footer p{
+    margin-left: -22px;
+    text-align: center;
 }
