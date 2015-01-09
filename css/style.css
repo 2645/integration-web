@@ -68,19 +68,8 @@ bold {
 .right {
     float: right;
 }
-.quotations{
-    font-size: 40px;
-}
-#tod {
-    margin-top: 10%;
-    text-align: center;
-}
 #clear {
     clear: both;
     padding: 0px;
     margin: 0px;
-}
-#quote {
-    margin-top:15%;
-    font-size: 30px;
 }
