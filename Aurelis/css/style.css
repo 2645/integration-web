@@ -40,7 +40,7 @@ nav a:hover {
     color: black;
 }
 h2 {
-    font-size:30px;
+    font-size: 30px;
     font-family: quicksand;
     padding-top: 20px;
     color: #5c4562;
@@ -51,36 +51,42 @@ bold {
 #current {
     padding-bottom: 10px;
     color: black;
-    border-bottom: 2px solid #5c4562;;
+    border-bottom: 2px solid #5c4562;
+    ;
 }
 #wrapper {
     font-family: aftaserif;
 }
 #subNav {
-    width:100%
-}
-
-#subNav ul{
-    display:table;
-    list-style: none;
+    margin-top:5%;
     width:100%;
-    padding:0px;
 }
-#subNav li{
-    display:table-cell;
+#subNav ul{
+    padding-left:0;
+}
+#subNav  li {
+    position:relative;
+    list-style: none;
+    float:left;    
+    margin: 0.5%;
+    width: 19%;
+    padding-bottom: 19%;
+    background-color: #5c4562;
+}
+#subNav li div {
     text-align: center;
+    position: absolute;
+    margin-top:40%;
+    height:100%;
+    width: 100%;
 }
-#subNav li div{
-    background-color:red;
-    width:98%;
-    height:0;
-    padding-top:46%;
-    padding-bottom: 54;
+#subNav li:hover {
+    background-color: black;
 }
-#backToTop{
-    position:fixed;
-    top:90%;
-    right:15%;
+#backToTop {
+    position: fixed;
+    top: 90%;
+    right: 15%;
 }
 .left {
     float: left;
