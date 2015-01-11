@@ -24,6 +24,10 @@
         .signin {
             background-image: url("images/VakjeAurelis_01.png");
         }
+        .inline-link {
+            text-decoration: none;
+            color: #5c4562;
+        }
     </style>
 </head>
 
@@ -32,7 +36,26 @@
         <br>
         <br>
         <br>
-        <!-- HIER KOMT HET LOGO & social media & talen te staan -->
+        <div id="mainLogo">
+            <a href="http://aurelis.org">
+                <img src="images/Aurelis%20logo.png" alt="Logo Aurelis" />
+            </a>
+            <!-- HIER KOMT HET LOGO & social media & talen te staan -->
+        </div>
+        <div id="socialNetwork">
+            <a href="https://www.rss.com/">
+                <img src="images/rss-logo.png" alt="Logo RSS" />
+            </a>
+            <a href="http://linkedin.com">
+                <img src="images/linkedin-logo.png" alt="Logo LinkedIn" />
+            </a>
+            <a href="http://twitter.com">
+                <img src="images/twitter-logo.png" alt="Logo Twitter" />
+            </a>
+            <a href="https://www.facebook.com/pages/Aurelis/150681711759859">
+                <img src="images/facebook-logo.png" alt="Logo Facebook" />
+            </a>
+        </div>
     </header>
     <nav>
         <ul>
@@ -67,7 +90,7 @@
         <div class="regText left">
             <h2>Aurelis Online</h2>
             <img src="images/symboolAurelisOnline.png" class="symbol" width="37;5px" height="15px">
-            <p>All <a href="domains">domains</a> (+/- 920 suggestion techniques!) in one product! AurelisOnLine is the best instrument in the world that supports you with autosuggestion self-help. It's a key to the door that leads you to the power of your own deeper self. This is a very effective help on several domains such as quitting smoking, stress resistance, getting slim, burn-out, ... With AurelisOnLine you can get started straight away: on any computer (without being hooked to the screen), anywhere in the world, at any time of the day. AurelisOnLine is always ready for you!</p>
+            <p>All <a href="domains" class="inline-link">domains</a> (+/- 920 suggestion techniques!) in one product! AurelisOnLine is the best instrument in the world that supports you with autosuggestion self-help. It's a key to the door that leads you to the power of your own deeper self. This is a very effective help on several domains such as quitting smoking, stress resistance, getting slim, burn-out, ... With AurelisOnLine you can get started straight away: on any computer (without being hooked to the screen), anywhere in the world, at any time of the day. AurelisOnLine is always ready for you!</p>
             <p>You can choose from a variety of indications, alternating this with pure relaxation or deeper meditation if you like. Moreover we provide you with a lot of support. With the help of the guided demo you can already taste it.</p>
             <p>With AurelisOnLine you can do as many sessions as you want and from any computer (at work, at home, in a hotel in another country etc.), through cable/ADSL or modem. Moreover, not only you but your whole family and your friends can make use of your AurelisOnLine.</p>
             <p>You get entrance to the whole system, this is: ALL domains. New indications during the period of your subscription are immediately available to you for free! After payed subscribing, you immediately get a password. After paying,you get 2 passwords that are valid for the period of your choice.</p>
@@ -106,11 +129,27 @@
                 <button type="button" onclick="alert('yooooooo de Jan :)')">Sign up</button>
             </form>
         </div>
-
-
-
+        <div id="clear"></div>
     </div>
+    <footer>
+        <ul>
+            <li>
+                FAQ's
+            </li>
 
+            <li>
+                Aurelis
+            </li>
+
+            <li>
+                Contact
+            </li>
+        </ul>
+        <a href="http://www.aurelis.org">
+            <img src="images/Aurelis-footer.png" alt="Logo Aurelis" />
+        </a>
+        <p>Departement Design &amp; Technologie van de Erasmushogeschool Brussel</p>
+    </footer>
 </body>
 
 </html>

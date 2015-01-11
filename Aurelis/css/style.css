@@ -13,8 +13,16 @@ body {
     max-width: 1400px;
     background-color: white;
 }
+header #mainLogo img{
+    width: 150px;
+
+}
+header #socialNetwork img {
+    float: right;  
+    padding-left: 7px;
+}
 nav {
-    width: 100%
+    width: 100%;
 }
 nav ul {
     display: table;
@@ -109,4 +117,27 @@ bold {
 }
 .right {
     float: right;
+}
+footer {
+    margin-top: 50px;
+    border-top: 1px #5c4562 solid;
+    text-align: center;
+
+}
+footer ul {
+    display: table;
+    list-style: none;
+    width: 100%;
+    margin-left: -20px;
+}
+footer li {
+    display: table-cell;
+}
+footer img {
+    margin-left: -65px;
+    height: 50px;
+}
+footer p{
+    margin-left: -22px;
+    text-align: center;
 }
