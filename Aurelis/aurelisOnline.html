@@ -12,15 +12,6 @@
         .right {
             width: 45%;
         }
-        .symbol {} .months a {
-            color: #000000;
-            font-family: "quicksand-regular", sans-serif;
-            text-decoration: none;
-            font-size: x-large;
-            letter-spacing: 1px;
-            display: block;
-            text-align: center;
-        }
         .signin {
             background-image: url("images/VakjeAurelis_01.png");
         }
@@ -33,17 +24,13 @@
 
 <body>
     <header>
-        <br>
-        <br>
-        <br>
         <div id="mainLogo">
             <a href="http://aurelis.org">
                 <img src="images/Aurelis%20logo.png" alt="Logo Aurelis" />
             </a>
-            <!-- HIER KOMT HET LOGO & social media & talen te staan -->
         </div>
         <div id="socialNetwork">
-            <img src="images/taalkeuze-logo.png" alt="Choose language"/>
+            <img src="images/taalkeuze-logo.png" alt="Choose language" />
             <a href="https://www.rss.com/">
                 <img src="images/rss-logo.png" alt="Logo RSS" />
             </a>
@@ -77,62 +64,48 @@
         </ul>
     </nav>
     <div id="wrapper">
-        <div id="subNav">
-
-            <!--HIER KOMT SUBNAVIGATIE VAN DE SITE MBV SPRITE SHEET-->
+        <div id="backToTop">
+            <a href="#top">
+                <img src="images/back_to_top_img.png">
+            </a>
         </div>
-
-        <div id="rightColumn"></div>
-
-        <!--HIER KOMT SUBNAVIGATIE VAN DE SITE MBV SPRITE SHEET-->
-
-
-
         <div class="regText left">
             <h2>Aurelis Online</h2>
-            <img src="images/symboolAurelisOnline.png" class="symbol" width="37;5px" height="15px">
+            <img src="images/symboolAurelisOnline.png" class="symbol" width="37px" height="15px">
             <p>All <a href="domains" class="inline-link">domains</a> (+/- 920 suggestion techniques!) in one product! AurelisOnLine is the best instrument in the world that supports you with autosuggestion self-help. It's a key to the door that leads you to the power of your own deeper self. This is a very effective help on several domains such as quitting smoking, stress resistance, getting slim, burn-out, ... With AurelisOnLine you can get started straight away: on any computer (without being hooked to the screen), anywhere in the world, at any time of the day. AurelisOnLine is always ready for you!</p>
             <p>You can choose from a variety of indications, alternating this with pure relaxation or deeper meditation if you like. Moreover we provide you with a lot of support. With the help of the guided demo you can already taste it.</p>
             <p>With AurelisOnLine you can do as many sessions as you want and from any computer (at work, at home, in a hotel in another country etc.), through cable/ADSL or modem. Moreover, not only you but your whole family and your friends can make use of your AurelisOnLine.</p>
             <p>You get entrance to the whole system, this is: ALL domains. New indications during the period of your subscription are immediately available to you for free! After payed subscribing, you immediately get a password. After paying,you get 2 passwords that are valid for the period of your choice.</p>
-            <div class="months">
-                <div class="test">
-                    <br>
-                    <a class="test" href="">
-                        <div>3 months AurelisOnline
-                            <br>
-                            <img src="images/thought-of-the-day.png" class="symbol" width="50" height="27,5">
-                        </div>
-                    </a>
-                </div>
-                <div class="test2">
-                    <br>
-                    <a class="test2" href="">
-                        <div>12 months AurelisOnline
-                            <br>
-                            <img src="images/thought-of-the-day.png" class="symbol" width="50" height="27.5">
-                        </div>
-                    </a>
-
-                </div>
-            </div>
-
-
         </div>
-        <div class="right signin" style="width:40%;">
+        <div class="right signin">
             <h2>Sign in</h2>
             <form>
                 <input type="text" name="Voornaam" placeholder="Username">
                 <input type="text" name="Achterrnaam" placeholder="Password">
                 <a href="aurelisOnline.html">Forgot password?</a>
-                <button type="button" onclick="alert('yooooooo de Jan :)')">Sign in</button>
+                <button type="button" onclick="alert('')">Sign in</button>
                 <p>No account yet?</p>
-                <button type="button" onclick="alert('yooooooo de Jan :)')">Sign up</button>
+                <button type="button" onclick="alert('')">Sign up</button>
             </form>
         </div>
-        <div id="clear"></div>
+        <div class="clear"></div>
+        <div class="left" id="aurelisOnlineLink">
+            <a href="foo">
+                <p>
+                    <bold>3 months AurelisOnline</bold>
+                </p>
+                <img src="images/thought-of-the-day.png">
+            </a>
+            <a href="foo">
+                <p>
+                    <bold>12 months AurelisOnline</bold>
+                </p>
+                <img src="images/thought-of-the-day.png">
+            </a>
+        </div>
+        <div class="clear"></div>
     </div>
-     <footer>
+    <footer>
         <ul>
             <li>
                 FAQ's
@@ -146,7 +119,6 @@
                 <br>
                 <p>Departement Design &amp; Technologie van de Erasmushogeschool Brussel</p>
             </li>
-
             <li>
                 Contact
             </li>

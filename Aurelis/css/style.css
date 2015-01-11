@@ -12,6 +12,9 @@ body {
     min-width: 900px;
 }
 header {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top:2%;
     margin-bottom: 5%
 }
 header #mainLogo img {
@@ -118,12 +121,54 @@ footer img {
     text-decoration: none;
     color: white;
 }
+#subNavScroll {
+    margin-top: 5%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#scroll {
+    width:180%;
+}
+#subNavScroll ul {
+    padding-left: 0;
+}
+#subNavScroll li {
+    position: relative;
+    list-style: none;
+    float: left;
+    margin: 0.5%;
+    width: 10.1%;
+    padding-bottom: 10%;
+    background-color: #5c4562;
+}
+#subNavScroll li div {
+    text-align: center;
+    position: absolute;
+    margin-top: 30%;
+    height: 100%;
+    width: 100%;
+}
+#subNavScroll li:hover {
+    opacity: 0.73;
+}
+#subNavScroll a {
+    text-decoration: none;
+    color: white;
+}
 #backToTop {
     position: fixed;
     top: 90%;
     right: 15%;
 }
-#clear {
+#aurelisOnlineLink{
+    text-align: center;
+}
+#aurelisOnlineLink a{
+    text-decoration: none;
+    color:black;
+}
+.clear {
     clear: both;
     padding: 0px;
     margin: 0px;
