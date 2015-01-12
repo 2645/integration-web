@@ -7,11 +7,9 @@
     src: url("../fonts/AftaSerifThin-Regular.otf");
 }
 body {
-    font-family: quicksand;
-    margin: 0 auto;
-    width: 64%;
-    max-width: 1400px;
+   font-family: quicksand;
     background-color: white;
+    min-width: 900px;
 }
 header {
     margin-right: 5%;
@@ -20,7 +18,7 @@ header {
     padding-bottom: 5%;
 }
 header #mainLogo img {
-    width: 150px;
+    width: 300px;
 }
 header #socialNetwork img {
     float: right;
@@ -28,7 +26,9 @@ header #socialNetwork img {
     margin-top: 20px;
 }
 nav {
-    width: 100%
+    margin: 0 auto;
+    width: 64%;
+    max-width: 1400px;
 }
 nav ul {
     display: table;
@@ -68,6 +68,9 @@ bold {
     ;
 }
 #wrapper {
+    margin: 0 auto;
+    width: 64%;
+    max-width: 1400px;
     font-family: aftaserif;
 }
 #backToTop {
@@ -95,10 +98,9 @@ bold {
 }
 footer {
     margin-top: 8%;
-    border-top: 1px #5c4562 solid;
+    border-top: 1px #24385D solid;
     text-align: center;
     padding-top: 1.5%;
-    width: 100%;
 }
 footer ul {
     padding: 0px;
@@ -117,3 +119,7 @@ footer img {
 }
 footer a {
     text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> parent of bc75d7d... o
