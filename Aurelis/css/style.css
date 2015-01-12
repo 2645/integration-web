@@ -12,6 +12,24 @@ body {
     font-family: quicksand;
     background-color: white;
     min-width: 900px;
+    /* custom scrollbar IE: */
+    scrollbar-face-color: #5c4562;
+    scrollbar-highlight-color: #5c4562;
+    scrollbar-track-color: rgba(156,111,163,0.72);
+    scrollbar-arrow-color: #5c4562;
+    scrollbar-shadow-color: #5c4562;
+    scrollbar-dark-shadow-color: #5c4562;
+}
+/* custom scrollbar Chrome & safari*/
+::-webkit-scrollbar {
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(156, 111, 163, 0.72);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5c4562;
+    height: 20px;
 }
 header {
     margin-right: 5%;
@@ -334,16 +352,6 @@ footer a {
 #subNavScroll a {
     text-decoration: none;
     color: white;
-}
-::-webkit-scrollbar {
-    height: 10px;
-}
-::-webkit-scrollbar-track {
-    background-color: rgba(156, 111, 163, 0.72);
-}
-::-webkit-scrollbar-thumb {
-    background-color: #5c4562;
-    height: 20px;
 }
 /* Weekly Session */
 
