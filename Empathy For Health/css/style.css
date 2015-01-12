@@ -7,9 +7,11 @@
     src: url("../fonts/AftaSerifThin-Regular.otf");
 }
 body {
-   font-family: quicksand;
+    font-family: quicksand;
+    margin: 0 auto;
+    width: 64%;
+    max-width: 1400px;
     background-color: white;
-    min-width: 900px;
 }
 header {
     margin-right: 5%;
@@ -18,7 +20,7 @@ header {
     padding-bottom: 5%;
 }
 header #mainLogo img {
-    width: 300px;
+    width: 150px;
 }
 header #socialNetwork img {
     float: right;
@@ -26,9 +28,7 @@ header #socialNetwork img {
     margin-top: 20px;
 }
 nav {
-    margin: 0 auto;
-    width: 64%;
-    max-width: 1400px;
+    width: 100%
 }
 nav ul {
     display: table;
@@ -68,9 +68,6 @@ bold {
     ;
 }
 #wrapper {
-    margin: 0 auto;
-    width: 64%;
-    max-width: 1400px;
     font-family: aftaserif;
 }
 #backToTop {
@@ -98,9 +95,10 @@ bold {
 }
 footer {
     margin-top: 8%;
-    border-top: 1px #24385D solid;
+    border-top: 1px #5c4562 solid;
     text-align: center;
     padding-top: 1.5%;
+    width: 100%;
 }
 footer ul {
     padding: 0px;
@@ -119,4 +117,3 @@ footer img {
 }
 footer a {
     text-decoration: none;
-}
