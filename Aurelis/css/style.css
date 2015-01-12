@@ -186,47 +186,7 @@ footer a {
 .right {
     float: right;
 }
-/* Academy */
-
-#subNavScroll {
-    margin-top: 5%;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-#scroll {
-    width: 180%;
-}
-#subNavScroll ul {
-    padding-left: 0;
-}
-#subNavScroll li {
-    font-family: quicksand;
-    font-size: 20px;
-    position: relative;
-    list-style: none;
-    float: left;
-    margin: 0.5%;
-    width: 10.1%;
-    padding-bottom: 10%;
-    background-color: #5c4562;
-}
-#subNavScroll li div {
-    text-align: center;
-    position: absolute;
-    margin-top: 30%;
-    height: 100%;
-    width: 100%;
-}
-#subNavScroll li:hover {
-    opacity: 0.73;
-}
-#subNavScroll a {
-    text-decoration: none;
-    color: white;
-}
-/*AurelisOnline*/
-
+/* AurelisOnline*/
 #aurelisOnlineLink {
     text-align: center;
 }
@@ -274,6 +234,129 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+.left-regular {
+    width: 50%;
+}
+.right-regular {
+    width: 45%;
+}
+.right-regular h2 {
+    border-top: 0;
+}
+.signin form {
+    background-image: url("images/VakjeAurelis_01.png");
+    background-color: #66506B;
+    height: 30em;
+    margin-top: 15%;
+    background-repeat: round;
+}
+.inline-link {
+    text-decoration: none;
+    color: #382340;
+}
+.loginVoornaam,
+.loginAchternaam {
+    padding: 3%;
+    margin-left: 15%;
+    border-style: none;
+    width: 63%;
+    background-color: #DED9DF;
+    font-family: "aftaserif";
+}
+.loginVoornaam {
+    margin-top: 27%;
+}
+.loginAchternaam {
+    margin-top: 5%;
+}
+.forgot {
+    float: right;
+    margin-right: 16%;
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "aftaserif";
+}
+.signinButton {
+    padding: 3% 5%;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-color: #382340;
+    border-style: none;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    font-family: "aftaserif";
+}
+.account {
+    font-size: 0.85em;
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    color: #FFF;
+    font-family: "aftaserif";
+}
+.signupButton {
+    padding: 3% 5%;
+    margin-left: 15%;
+    margin-bottom: 35%;
+    background-color: #382340;
+    border-style: none;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    font-family: "aftaserif";
+}
+
+/* Academy */
+
+#subNavScroll {
+    margin-top: 5%;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#scroll {
+    width: 180%;
+}
+#subNavScroll ul {
+    padding-left: 0;
+}
+#subNavScroll li {
+    font-family: quicksand;
+    font-size: 20px;
+    position: relative;
+    list-style: none;
+    float: left;
+    margin: 0.5%;
+    width: 10.1%;
+    padding-bottom: 10%;
+    background-color: #5c4562;
+}
+#subNavScroll li div {
+    text-align: center;
+    position: absolute;
+    margin-top: 30%;
+    height: 100%;
+    width: 100%;
+}
+#subNavScroll li:hover {
+    opacity: 0.73;
+}
+#subNavScroll a {
+    text-decoration: none;
+    color: white;
+}
+/* Weekly Session */
+
+#tod-weekly img {
+    margin-left: -50%;
+}
+#tod-weekly {
+    text-align: center;
+}
+
 /* Sites */
 
 #sites {
@@ -299,7 +382,7 @@ footer a {
     height: 100%;
     width: 100%;
 }
-#sites li:hover{
+#sites li:hover {
     opacity: 0.73;
 }
 #sites a {
