@@ -201,14 +201,14 @@ footer a {
     background-color: #5c4562;
     height: 20px;
 }
-#subNav_library {
+#subNavLibrary {
     margin-top: 5%;
     width: 100%;
 }
-#subNav_library ul {
+#subNavLibrary ul {
     padding-left: 0;
 }
-#subNav_library li {
+#subNavLibrary li {
     position: relative;
     list-style: none;
     float: left;
@@ -217,17 +217,17 @@ footer a {
     padding-bottom: 15.6%;
     background-color: #5c4562;
 }
-#subNav_library li div {
+#subNavLibrary li div {
     text-align: center;
     position: absolute;
     margin-top: 30%;
     height: 100%;
     width: 100%;
 }
-#subNav_library li:hover {
+#subNavLibrary li:hover {
     opacity: 0.73;
 }
-#subNav_library a {
+#subNavLibrary a {
     text-decoration: none;
     color: white;
 }
