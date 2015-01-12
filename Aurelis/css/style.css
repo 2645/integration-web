@@ -14,8 +14,8 @@ body {
 header {
     margin-right: 5%;
     margin-left: 5%;
-    margin-top:2%;
-    margin-bottom: 5%
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 header #mainLogo img {
     width: 150px;
@@ -23,6 +23,7 @@ header #mainLogo img {
 header #socialNetwork img {
     float: right;
     padding-left: 7px;
+    margin-top: 20px;
 }
 nav {
     margin: 0 auto;
@@ -55,7 +56,6 @@ nav a:hover {
 h2 {
     font-size: 30px;
     font-family: quicksand;
-    padding-top: 20px;
     color: #5c4562;
 }
 bold {
@@ -65,6 +65,7 @@ footer {
     margin-top: 8%;
     border-top: 1px #5c4562 solid;
     text-align: center;
+    padding-top: 1.5%;
 }
 footer ul {
     padding: 0px;
@@ -79,6 +80,10 @@ footer li {
 }
 footer img {
     height: 50px;
+    padding-top: 2%;
+}
+footer a {
+    text-decoration: none;
 }
 #current {
     padding-bottom: 10px;
@@ -128,7 +133,7 @@ footer img {
     overflow-y: hidden;
 }
 #scroll {
-    width:180%;
+    width: 180%;
 }
 #subNavScroll ul {
     padding-left: 0;
@@ -161,12 +166,12 @@ footer img {
     top: 90%;
     right: 15%;
 }
-#aurelisOnlineLink{
+#aurelisOnlineLink {
     text-align: center;
 }
-#aurelisOnlineLink a{
+#aurelisOnlineLink a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 .clear {
     clear: both;
@@ -187,12 +192,12 @@ footer img {
     float: right;
 }
 ::-webkit-scrollbar {
-    height:10px;
+    height: 10px;
 }
-::-webkit-scrollbar-track{
-    background-color: rgba(156, 111, 163, 0.72) ;
+::-webkit-scrollbar-track {
+    background-color: rgba(156, 111, 163, 0.72);
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #5c4562;
-    height:20px;
+    height: 20px;
 }
