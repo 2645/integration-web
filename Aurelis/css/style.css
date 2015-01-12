@@ -186,3 +186,13 @@ footer img {
 .right {
     float: right;
 }
+::-webkit-scrollbar {
+    height:10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(156, 111, 163, 0.72) ;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #5c4562;
+    height:20px;
+}
