@@ -6,6 +6,8 @@
     font-family: "aftaserif";
     src: url("../fonts/AftaSerifThin-Regular.otf");
 }
+/*Algemeen*/
+
 body {
     font-family: quicksand;
     background-color: white;
@@ -20,7 +22,6 @@ header {
 header #mainLogo img {
     width: 150px;
 }
-
 header #socialNetwork img {
     float: right;
     padding-left: 7px;
@@ -105,6 +106,8 @@ footer a {
     padding-left: 0;
 }
 #subNav li {
+    font-family: quicksand;
+    font-size: 20px;
     position: relative;
     list-style: none;
     float: left;
@@ -127,6 +130,63 @@ footer a {
     text-decoration: none;
     color: white;
 }
+#backToTop {
+    position: fixed;
+    top: 90%;
+    right: 15%;
+}
+.clear {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.regText ul {
+    list-style-image: url("../images/listSymbol.png");
+}
+.regText li {
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+
+/*index*/
+
+#tod-aurelis {
+    margin-top: 10%;
+    text-align: center;
+    background-image: url(../images/VakjeAurelis_01.png);
+    background-size: 100% 100%;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+#tod-aurelis h2 {
+    font-size: 20px;
+}
+.quotations {
+    font-size: 30px;
+    color: #5c4562;
+}
+#quote {
+    margin-top: 15%;
+    font-size: 30px;
+}
+.left-wide {
+    width: 65%;
+    float: left;
+}
+.right-small {
+    width: 30%;
+    float: right;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/* Academy */
+
 #subNavScroll {
     margin-top: 5%;
     width: 100%;
@@ -140,6 +200,8 @@ footer a {
     padding-left: 0;
 }
 #subNavScroll li {
+    font-family: quicksand;
+    font-size: 20px;
     position: relative;
     list-style: none;
     float: left;
@@ -162,11 +224,9 @@ footer a {
     text-decoration: none;
     color: white;
 }
-#backToTop {
-    position: fixed;
-    top: 90%;
-    right: 15%;
-}
+
+/*AurelisOnline*/
+
 #aurelisOnlineLink {
     text-align: center;
 }
@@ -174,24 +234,8 @@ footer a {
     text-decoration: none;
     color: black;
 }
-.clear {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
-}
-.left {
-    float: left;
-}
-.regText ul {
-    list-style-image: url("../images/listSymbol.png");
-}
-.regText li {
-    margin-left: -40px;
-    padding-bottom: 20px;
-}
-.right {
-    float: right;
-}
+
+
 ::-webkit-scrollbar {
     height: 10px;
 }
