@@ -1,0 +1,19 @@
+#navlist {
+    background-color: rgb(68, 68, 68);
+}
+nav ul {
+    padding: 0;
+}
+#navlist li {
+    margin: 0px;
+    list-style: none;
+    border-bottom: 1px dashed #FFF;
+}
+#navlist a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 110%;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 7px 10px 10px 7px;
+}

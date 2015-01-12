@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'IconFontAurelis';
+    src: url('fonts/icomoon.eot?-c4avyb');
+    src: url('fonts/icomoon.eot?#iefix-c4avyb') format('embedded-opentype'), url('fonts/icomoon.woff?-c4avyb') format('woff'), url('fonts/icomoon.ttf?-c4avyb') format('truetype'), url('fonts/icomoon.svg?-c4avyb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'IconFontAurelis';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-Aurelis-Icon_Aurelis:before {
+    content: "\e601";
+}
+.icon-Aurelis-Icon_AurelisOnLine:before {
+    content: "\e604";
+}
+.icon-Aurelis-Icon_AurelisCoachingInstitute:before {
+    content: "\e602";
+}
+.icon-Aurelis-Icon_OpenLeadership:before {
+    content: "\e60c";
+}
+.icon-Aurelis-Icon_ConnectYourself:before {
+    content: "\e607";
+}
+.icon-Aurelis-Icon_PeopleOfThisPlanet:before {
+    content: "\e610";
+}
+.icon-Aurelis-Icon_AureliZEN:before {
+    content: "\e605";
+}
+.icon-Aurelis-Icon_Mindfullness:before {
+    content: "\e60b";
+}
+.icon-Aurelis-Icon_EmpathyForHealth:before {
+    content: "\e60a";
+}
+.icon-Aurelis-Icon_DailyTwinkels:before {
+    content: "\e609";
+}
+.icon-Aurelis-Icon_CupOfStillnes:before {
+    content: "\e608";
+}
+.icon-Aurelis-Icon_SmokeFree:before {
+    content: "\e614";
+}
+.icon-Aurelis-Icon_Sexuality:before {
+    content: "\e612";
+}
+.icon-Aurelis-Icon_Svelt:before {
+    content: "\e616";
+}
+.icon-Aurelis-Icon_Sleep:before {
+    content: "\e613";
+}
+.icon-Aurelis-Icon_StressFree:before {
+    content: "\e615";
+}
+.icon-Aurelis-Icon_Tinnitus:before {
+    content: "\e617";
+}
+.icon-Aurelis-Icon_PainFree:before {
+    content: "\e60d";
+}
+.icon-Aurelis-Icon_Palpitations:before {
+    content: "\e60f";
+}
+.icon-Aurelis-Icon_AurelisNews:before {
+    content: "\e603";
+}
+.icon-Aurelis-Icon_Ascimo:before {
+    content: "\e600";
+}
+.icon-Aurelis-Icon_Palpi:before {
+    content: "\e60e";
+}
+.icon-Aurelis-Icon_Burnout:before {
+    content: "\e606";
+}
+.icon-Aurelis-Icon_Psoriasis:before {
+    content: "\e611";
+}
