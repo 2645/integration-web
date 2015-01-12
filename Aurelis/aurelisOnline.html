@@ -12,13 +12,77 @@
         .right {
             width: 45%;
         }
-        .signin {
+        .right h2{
+            border-top:0;  
+        }
+        .signin form{
             background-image: url("images/VakjeAurelis_01.png");
+            background-color:#66506B;
+            height:30em;
+            margin-top:15%;
+            background-repeat:round;
         }
         .inline-link {
             text-decoration: none;
-            color: #5c4562;
+            color: #382340;
         }
+        .loginVoornaam,.loginAchternaam{
+            padding:3%;
+            margin-left: 15%;
+            border-style:none;
+            width:63%;
+            background-color:#DED9DF;
+            font-family: "aftaserif";
+        }
+        .loginVoornaam{
+            margin-top:27%;
+        }
+        .loginAchternaam{
+            margin-top:5%;
+        }
+        .forgot{
+            float:right;
+            margin-right:16%;
+            font-size: 0.75em;
+            text-decoration: none;
+            color:#FFF;
+            font-family: "aftaserif";
+        }
+        .signinButton{
+            padding:3% 5%;
+            margin-left: 15%;
+            margin-top:10%;
+            background-color:#382340;
+            border-style: none;
+            text-align: center;
+            color:#FFF;
+            float: left;
+            font-family: "aftaserif";
+        }
+        .account{
+            font-size:0.85em;
+            margin-top:30%;
+            margin-left:15%;
+            margin-bottom:3%;
+            color:#FFF;
+            font-family: "aftaserif";
+          
+        }
+        .signupButton{
+            padding:3% 5%;
+            margin-left:15%;
+            margin-bottom:35%;
+            background-color:#382340;
+            border-style: none;
+            text-align: center;
+            color:#FFF;
+            float:left;
+            font-family: "aftaserif";
+        }
+        
+        
+        
+        
     </style>
 </head>
 
@@ -80,12 +144,12 @@
         <div class="right signin">
             <h2>Sign in</h2>
             <form>
-                <input type="text" name="Voornaam" placeholder="Username">
-                <input type="text" name="Achterrnaam" placeholder="Password">
-                <a href="aurelisOnline.html">Forgot password?</a>
-                <button type="button" onclick="alert('')">Sign in</button>
-                <p>No account yet?</p>
-                <button type="button" onclick="alert('')">Sign up</button>
+                <input class=loginVoornaam type="text" name="Voornaam" placeholder="Username">
+                <input class=loginAchternaam type="text" name="Achternaam" placeholder="Password">
+                <a class=forgot href="aurelisOnline.html">Forgot password?</a>
+                <button class=signinButton type="button" onclick="alert('')">Sign in</button>
+                <p class=account>No account yet?</p>
+                <button class=signupButton type="button" onclick="alert('')">Sign up</button>
             </form>
         </div>
         <div class="clear"></div>
