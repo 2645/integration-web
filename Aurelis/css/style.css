@@ -97,6 +97,35 @@ footer a {
     max-width: 1400px;
     font-family: aftaserif;
 }
+#backToTop {
+    position: fixed;
+    top: 90%;
+    right: 15%;
+}
+.clear {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.regText ul {
+    list-style-image: url("../images/listSymbol.png");
+}
+.regText li {
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+.inline-link {
+    text-decoration: none;
+    color: #5c4562;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/*index*/
+
 #subNav {
     margin-top: 5%;
     width: 100%;
@@ -107,6 +136,7 @@ footer a {
 #subNav li {
     font-family: quicksand;
     font-size: 20px;
+    font-size: 1.5vw;
     position: relative;
     list-style: none;
     float: left;
@@ -129,29 +159,6 @@ footer a {
     text-decoration: none;
     color: white;
 }
-#backToTop {
-    position: fixed;
-    top: 90%;
-    right: 15%;
-}
-.clear {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
-}
-.regText ul {
-    list-style-image: url("../images/listSymbol.png");
-}
-.regText li {
-    margin-left: -40px;
-    padding-bottom: 20px;
-}
-.inline-link {
-    text-decoration: none;
-    color: #5c4562;
-}
-/*index*/
-
 #tod-aurelis {
     margin-top: 10%;
     text-align: center;
@@ -179,12 +186,6 @@ footer a {
     width: 30%;
     float: right;
 }
-.left {
-    float: left;
-}
-.right {
-    float: right;
-}
 /* AurelisOnline*/
 
 #aurelisOnlineLink {
@@ -194,7 +195,6 @@ footer a {
     text-decoration: none;
     color: black;
 }
-
 .left-regular {
     width: 50%;
 }
@@ -204,19 +204,20 @@ footer a {
 .right-regular h2 {
     border-top: 0;
 }
+.signin h2 {
+    margin-bottom: 24%;
+}
 .signin form {
     background-image: url("../images/VakjeAurelis_01.png");
     background-color: #66506B;
-    height: 30em;
-    margin-top: 15%;
-    background-repeat: round;
+    background-size: 100% 100%;
 }
 .inline-link {
     text-decoration: none;
     color: #382340;
 }
 .loginVoornaam,
-.loginAchternaam {
+.loginPaswoord {
     padding: 3%;
     margin-left: 15%;
     border-style: none;
@@ -227,7 +228,7 @@ footer a {
 .loginVoornaam {
     margin-top: 27%;
 }
-.loginAchternaam {
+.loginPaswoord {
     margin-top: 5%;
 }
 .forgot {
@@ -236,10 +237,12 @@ footer a {
     font-size: 0.75em;
     text-decoration: none;
     color: #FFF;
-    font-family: "aftaserif";
+    font-family: aftaserif;
 }
 .signinButton {
-    padding: 3% 5%;
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 15%;
     margin-top: 10%;
     background-color: #382340;
@@ -247,7 +250,7 @@ footer a {
     text-align: center;
     color: #FFF;
     float: left;
-    font-family: "aftaserif";
+    font-family: aftaserif;
 }
 .account {
     font-size: 0.85em;
@@ -255,10 +258,12 @@ footer a {
     margin-left: 15%;
     margin-bottom: 3%;
     color: #FFF;
-    font-family: "aftaserif";
+    font-family: aftaserif;
 }
 .signupButton {
-    padding: 3% 5%;
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: 15%;
     margin-bottom: 35%;
     background-color: #382340;
@@ -266,7 +271,7 @@ footer a {
     text-align: center;
     color: #FFF;
     float: left;
-    font-family: "aftaserif";
+    font-family: aftaserif;
 }
 /* Academy */
 
@@ -285,6 +290,7 @@ footer a {
 #subNavScroll li {
     font-family: quicksand;
     font-size: 20px;
+    font-size: 1.4vw;
     position: relative;
     list-style: none;
     float: left;
@@ -325,6 +331,35 @@ footer a {
 #tod-weekly {
     text-align: center;
 }
+.sessionForm form {
+    background-image: url("../images/VakjeAurelis_01.png");
+    background-color: #66506B;
+    background-size: 100% 100%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+.sessionForm input,textArea{
+    padding: 3%;
+    margin-left: 15%;
+    margin-top: 4%;
+    border-style: none;
+    width: 65%;
+    background-color: #DED9DF;
+    font-family: "aftaserif";
+}
+.sessionForm button{
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-top: 4%;
+    background-color: #382340;
+    border-style: none;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    font-family: aftaserif;
+}
 /* Library */
 
 #subNavLibrary {
@@ -335,8 +370,9 @@ footer a {
     padding-left: 0;
 }
 #subNavLibrary li {
-     font-family: quicksand;
+    font-family: quicksand;
     font-size: 20px;
+    font-size: 1.5vw;
     position: relative;
     list-style: none;
     float: left;
