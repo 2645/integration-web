@@ -102,6 +102,28 @@ footer a {
     top: 90%;
     right: 15%;
 }
+#language {
+    position: relative;
+}
+#language ul {
+    display: none;
+    list-style: none;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    color: white;
+    text-align: center;
+}
+#language li {
+    font-size: 0.7vw;
+    padding: 5px 10px;
+    background: #5c4562;
+}
+#language:hover ul {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -22px;
+}
 .clear {
     clear: both;
     padding: 0px;
@@ -205,7 +227,7 @@ footer a {
     border-top: 0;
 }
 .signin h2 {
-    margin-bottom: 24%;
+    margin-bottom: 65px;
 }
 .signin form {
     background-image: url("../images/VakjeAurelis_01.png");
@@ -338,7 +360,8 @@ footer a {
     padding-top: 20%;
     padding-bottom: 15%;
 }
-.sessionForm input,textArea{
+.sessionForm input,
+textArea {
     padding: 3%;
     margin-left: 15%;
     margin-top: 4%;
@@ -347,7 +370,7 @@ footer a {
     background-color: #DED9DF;
     font-family: "aftaserif";
 }
-.sessionForm button{
+.sessionForm button {
     width: 30%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -369,8 +392,8 @@ footer a {
 #subNavLibrary ul {
     padding-left: 0;
 }
-.hiddenText{
-    display:none;
+.hiddenText {
+    display: none;
 }
 #subNavLibrary li {
     font-family: quicksand;
@@ -394,17 +417,16 @@ footer a {
 #subNavLibrary li:hover {
     opacity: 0.73;
 }
-#subNavLibrary li:hover .hiddenText{
+#subNavLibrary li:hover .hiddenText {
     margin-top: 20px;
     font-size: 1vw;
-    display:block;
-    position:relative;
+    display: block;
+    position: relative;
     top: 11vw;
     text-align: center;
     padding-bottom: 10px;
     padding-left: 5px;
-    padding-right:5px;
-    
+    padding-right: 5px;
 }
 #subNavLibrary a {
     text-decoration: none;
@@ -431,10 +453,9 @@ footer a {
     width: 15.6%;
     padding-bottom: 15.6%;
     background-color: #5c4562;
-    
 }
-#sites li .hidden{
-    display:none;
+#sites li .hidden {
+    display: none;
 }
 #sites li div {
     text-align: center;
@@ -446,11 +467,11 @@ footer a {
 #sites li:hover {
     opacity: 0.73;
 }
-#sites li:hover .hidden{
-    display:inline;
+#sites li:hover .hidden {
+    display: inline;
 }
-#sites li:hover .shown{
-    display:none;
+#sites li:hover .shown {
+    display: none;
 }
 #sites a {
     text-decoration: none;
