@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'IconFontAurelis';
-    src: url('fonts/icomoon.eot?-c4avyb');
-    src: url('fonts/icomoon.eot?#iefix-c4avyb') format('embedded-opentype'), url('fonts/icomoon.woff?-c4avyb') format('woff'), url('fonts/icomoon.ttf?-c4avyb') format('truetype'), url('fonts/icomoon.svg?-c4avyb#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?-c4avyb');
+    src: url('../fonts/icomoon.eot?#iefix-c4avyb') format('embedded-opentype'), url('../fonts/icomoon.woff?-c4avyb') format('woff'), url('../fonts/icomoon.ttf?-c4avyb') format('truetype'), url('../fonts/icomoon.svg?-c4avyb#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,6 +9,7 @@
 [class*=" icon-"]:before {
     font-family: 'IconFontAurelis';
     speak: none;
+    font-size:500%;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
