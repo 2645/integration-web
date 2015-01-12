@@ -365,8 +365,11 @@ footer a {
 }
 #sites lu {
     padding-left: 0;
+    
 }
 #sites li {
+     font-family: quicksand;
+    font-size: 15px;
     position: relative;
     list-style: none;
     float: left;
