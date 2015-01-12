@@ -7,7 +7,7 @@
     src: url("../fonts/AftaSerifThin-Regular.otf");
 }
 body {
-   font-family: quicksand;
+    font-family: quicksand;
     background-color: white;
     min-width: 900px;
 }
@@ -20,7 +20,6 @@ header {
 header #mainLogo img {
     width: 300px;
 }
-
 header #socialNetwork img {
     float: right;
     padding-left: 7px;
@@ -134,7 +133,6 @@ footer a {
     top: 90%;
     right: 15%;
 }
-
 .clear {
     clear: both;
     padding: 0px;
@@ -152,9 +150,7 @@ footer a {
 }
 .right {
     float: right;
-
 }
-
 }
 #clear {
     clear: both;
@@ -185,4 +181,29 @@ footer img {
 footer a {
     text-decoration: none;
 }
+/* Empathy for health*/
 
+.quotations {
+    font-size: 30px;
+    color: #24385D;
+}
+#quote {
+    margin-top: 10%;
+    font-size: 20px;
+    line-height: 40px;
+}
+.left-wide {
+    width: 65%;
+    float: left;
+}
+.right-small {
+    width: 30%;
+    float: right;
+}
+#source-quote {
+    font-family: quicksand;
+    color: #afaaaa;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 2%;
+}
