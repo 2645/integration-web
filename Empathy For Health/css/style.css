@@ -105,13 +105,15 @@ footer a {
     padding-left: 0;
 }
 #subNav li {
+    font-family: quicksand;
+    font-size: 25px;
     position: relative;
     list-style: none;
     float: left;
     margin: 0.5%;
-    width: 19%;
-    padding-bottom: 19%;
-    background-color: #5c4562;
+    width: 24%;
+    padding-bottom: 24%;
+    background-color: #24385D;
 }
 #subNav li div {
     text-align: center;
