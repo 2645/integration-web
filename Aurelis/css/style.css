@@ -20,7 +20,7 @@ body {
     scrollbar-shadow-color: #5c4562;
     scrollbar-dark-shadow-color: #5c4562;
 }
-/* custom scrollbar Chrome & safari*/
+/* custom scrollbar Chrome, Opera & safari*/
 ::-webkit-scrollbar {
     height: 10px;
 }
