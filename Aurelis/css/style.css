@@ -398,6 +398,15 @@ textArea {
     float: left;
     font-family: aftaserif;
 }
+/* Research */
+
+#source-quote {
+    font-family: quicksand;
+    color: #afaaaa;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 2%;
+}
 /* Library */
 
 #subNavLibrary {
@@ -491,21 +500,21 @@ textArea {
 }
 #sites li:hover .hiddenSmall {
     display: inline;
-    font-size:80%;
+    font-size: 80%;
 }
 #sites li .hiddenSmaller {
     display: none;
 }
 #sites li:hover .hiddenSmaller {
     display: inline;
-    font-size:70%;
+    font-size: 70%;
 }
 #sites li .hiddenBigger {
     display: none;
 }
 #sites li:hover .hiddenBigger {
     display: inline;
-    font-size:85%;
+    font-size: 85%;
 }
 #sites li:hover .shown {
     display: none;
