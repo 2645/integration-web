@@ -368,6 +368,9 @@ footer a {
     margin-left: -20px;
     text-align: center;
 }
+.sessionForm object{
+    margin-left: 15%;
+}
 .sessionForm form {
     background-image: url("../images/VakjeAurelis_01.png");
     background-color: #66506B;
