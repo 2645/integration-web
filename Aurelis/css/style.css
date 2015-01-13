@@ -487,3 +487,11 @@ textArea {
     text-decoration: none;
     color: white;
 }
+/* Contact */ 
+.mailto {
+ padding-bottom: 15%;   
+    
+}
+.mailto a:link {
+    text-decoration: none;
+}
