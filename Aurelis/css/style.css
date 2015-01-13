@@ -465,7 +465,7 @@ textArea {
     background-color: #5c4562;
 }
 #sites li .hidden {
-    display: none;
+    display:none;
     font-size:0.9vw;
 }
 #sites li div {
@@ -496,3 +496,10 @@ textArea {
 .mailto a:link {
     text-decoration: none;
 }
+/*SMARTPHONE */
+@media only screen and (max-width: 540px) {
+    body{
+        display:none;
+    }
+}
+
