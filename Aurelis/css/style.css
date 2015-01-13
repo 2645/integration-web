@@ -15,12 +15,13 @@ body {
     /* custom scrollbar IE: */
     scrollbar-face-color: #5c4562;
     scrollbar-highlight-color: #5c4562;
-    scrollbar-track-color: rgba(156,111,163,0.72);
+    scrollbar-track-color: rgba(156, 111, 163, 0.72);
     scrollbar-arrow-color: #5c4562;
     scrollbar-shadow-color: #5c4562;
     scrollbar-dark-shadow-color: #5c4562;
 }
 /* custom scrollbar Chrome, Opera & safari*/
+
 ::-webkit-scrollbar {
     height: 10px;
 }
@@ -74,6 +75,10 @@ nav a:hover {
 }
 h2 {
     font-size: 30px;
+    font-family: quicksand;
+    color: #5c4562;
+}
+h3 {
     font-family: quicksand;
     color: #5c4562;
 }
@@ -359,8 +364,8 @@ footer a {
     margin-left: -50%;
 }
 #tod-weekly {
-    margin-top:30%;
-    margin-left:-20px;
+    margin-top: 30%;
+    margin-left: -20px;
     text-align: center;
 }
 .sessionForm form {
@@ -466,7 +471,7 @@ textArea {
 }
 #sites li .hidden {
     display: none;
-    font-size:0.9vw;
+    font-size: 0.9vw;
 }
 #sites li div {
     text-align: center;
@@ -488,10 +493,10 @@ textArea {
     text-decoration: none;
     color: white;
 }
-/* Contact */ 
+/* Contact */
+
 .mailto {
- padding-bottom: 15%;   
-    
+    padding-bottom: 15%;
 }
 .mailto a:link {
     text-decoration: none;
