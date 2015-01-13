@@ -10,6 +10,24 @@ body {
     font-family: quicksand;
     background-color: white;
     min-width: 900px;
+       /* custom scrollbar IE: */
+    scrollbar-face-color: #5c4562;
+    scrollbar-highlight-color: #5c4562;
+    scrollbar-track-color: rgba(156,111,163,0.72);
+    scrollbar-arrow-color: #5c4562;
+    scrollbar-shadow-color: #5c4562;
+    scrollbar-dark-shadow-color: #5c4562;
+}
+/* custom scrollbar Chrome, Opera & safari*/
+::-webkit-scrollbar {
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(36, 56, 93, 0.50);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #24385D;
+    height: 20px;
 }
 header {
     margin-right: 5%;
@@ -84,6 +102,7 @@ footer img {
 }
 footer a {
     text-decoration: none;
+    color: #24385D;
 }
 #current {
     padding-bottom: 10px;
@@ -132,6 +151,28 @@ footer a {
     position: fixed;
     top: 90%;
     right: 15%;
+}
+#language {
+    position: relative;
+}
+#language ul {
+    display: none;
+    list-style: none;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    color: white;
+    text-align: center;
+}
+#language li {
+    font-size: 0.7vw;
+    padding: 5px 10px;
+    background: #24385D;
+}
+#language:hover ul {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: -1.5vw;
 }
 .clear {
     clear: both;
@@ -206,4 +247,12 @@ footer a {
     font-size: 12px;
     line-height: 20px;
     margin-top: 2%;
+}
+/* Contact */ 
+.mailto {
+ padding-bottom: 15%;   
+    
+}
+.mailto a:link {
+    text-decoration: none;
 }
