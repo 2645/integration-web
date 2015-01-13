@@ -256,3 +256,57 @@ footer a {
 .mailto a:link {
     text-decoration: none;
 }
+
+/* FAQ's */
+.left-regular {
+    width: 50%;
+}
+.right-regular {
+    width: 45%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.sessionForm form {
+    background-image: url("../images/VakjeAurelis_01%20copy.png");
+    background-color: rgba(21, 35, 62, 0.88);
+    background-size: 100% 100%;
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+.sessionForm input,
+textArea {
+    padding: 3%;
+    margin-left: 15%;
+    margin-top: 4%;
+    border-style: none;
+    width: 65%;
+    background-color: rgb(215, 222, 235);
+    font-family: "aftaserif";
+}
+.sessionForm button {
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-top: 4%;
+    background-color: #151f2f;
+    border-style: none;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    font-family: aftaserif;
+}
+.faq .answer {
+    display: none;
+    
+}
+.faq li:hover .answer {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}

@@ -531,3 +531,16 @@ textArea {
 .mailto a:link {
     text-decoration: none;
 }
+
+
+/* FAQ's*/ 
+.faq .answer {
+    display: none;
+    
+}
+.faq li:hover .answer {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
