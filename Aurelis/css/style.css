@@ -141,25 +141,12 @@ footer a {
     font-size: 0.7vw;
     padding: 5px 10px;
     background: #5c4562;
-    color:white;
-}
-#language a{
-    text-decoration: none;
-}
-#language a:hover li{
-    background-color:white;
-    color:#5c4562
 }
 #language:hover ul {
     display: block;
     position: absolute;
     top: 24px;
     right: -1.5vw;
-}
-#language a:hover {
-    color:#5c4562;
-    background-color: white;
-    text-decoration:none;
 }
 .clear {
     clear: both;
