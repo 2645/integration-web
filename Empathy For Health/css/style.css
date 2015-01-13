@@ -163,16 +163,28 @@ footer a {
     color: white;
     text-align: center;
 }
+#language a{
+    text-decoration: none;
+    color:white;
+}
 #language li {
-    font-size: 0.7vw;
+    font-size: 1vw;
     padding: 5px 10px;
-    background: #24385D;
+    background-color: #24385D;
 }
 #language:hover ul {
     display: block;
     position: absolute;
     top: 24px;
-    right: -1.5vw;
+    right: -2.5vw;
+}
+#language a:hover{
+    text-decoration: none;
+    color:#24385D;
+    background-color: white;
+}
+#language a:hover li{
+    background-color:white;
 }
 .clear {
     clear: both;
