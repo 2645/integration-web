@@ -480,6 +480,27 @@ textArea {
 #sites li:hover .hidden {
     display: inline;
 }
+#sites li .hiddenSmall {
+    display: none;
+}
+#sites li:hover .hiddenSmall {
+    display: inline;
+    font-size:80%;
+}
+#sites li .hiddenSmaller {
+    display: none;
+}
+#sites li:hover .hiddenSmaller {
+    display: inline;
+    font-size:70%;
+}
+#sites li .hiddenBigger {
+    display: none;
+}
+#sites li:hover .hiddenBigger {
+    display: inline;
+    font-size:85%;
+}
 #sites li:hover .shown {
     display: none;
 }
