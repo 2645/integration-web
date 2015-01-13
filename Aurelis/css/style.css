@@ -359,6 +359,8 @@ footer a {
     margin-left: -50%;
 }
 #tod-weekly {
+    margin-top:30%;
+    margin-left:-20px;
     text-align: center;
 }
 .sessionForm form {
