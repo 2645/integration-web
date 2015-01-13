@@ -123,8 +123,8 @@ footer a {
 }
 #backToTop {
     position: fixed;
-    top: 90%;
-    right: 15%;
+    top: 86%;
+    right: 5%;
 }
 #language {
     position: relative;
@@ -149,8 +149,8 @@ footer a {
 #language:hover ul {
     display: block;
     position: absolute;
-    top: 24px;
-    right: -2.5vw;
+    top: 25px;
+    right: -2.8vw;
 }
 #language a:hover{
     text-decoration: none;
