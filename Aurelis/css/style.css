@@ -466,6 +466,7 @@ textArea {
 }
 #sites li .hidden {
     display: none;
+    font-size:0.9vw;
 }
 #sites li div {
     text-align: center;
