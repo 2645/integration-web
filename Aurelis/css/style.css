@@ -698,7 +698,8 @@ textArea {
         display: none;
     }
     header #socialNetwork img {
-        float: right;
+        float: left;
+        margin-bottom: 2%
     }
     #social {
         position: relative;
