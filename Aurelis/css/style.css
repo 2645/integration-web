@@ -463,6 +463,10 @@ textArea {
     width: 100%;
     height: 0;
     padding-bottom: 100%;
+    font-size: 1vw
+}
+#subNavLibrary a:hover div {
+    padding-bottom: 70%;
 }
 #subNavLibrary a:hover .hiddenText {
     display: inline-block;
@@ -472,7 +476,7 @@ textArea {
 }
 #subNavLibrary a:hover {
     width: 100%;
-    background: #5c4562;
+    background: #937b9f;
     overflow: visible;
     z-index: 2;
 }
@@ -540,7 +544,7 @@ textArea {
     padding-top: 10px;
     padding-left: 10px;
 }
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     nav li {
         font-size: 1.5vw;
         padding: 5px;
@@ -549,15 +553,6 @@ textArea {
     .right-small {
         width: 100%;
         float: none;
-    }
-    #language li {
-        font-size: 1.5vw;
-    }
-    #language:hover ul {
-        display: block;
-        position: absolute;
-        top: 25px;
-        right: -4vw;
     }
     /* INDEX */
     .quotations {
@@ -579,29 +574,36 @@ textArea {
         text-align: center;
     }
     /* LIBRARY */
+    #subNavLibrary ul {
+        padding-left: 0;
+    }
     #subNavLibrary li {
-        font-size: 2vw;
-        width: 24%;
-        padding-bottom: 24%;
+        width: 32%;
+        padding-bottom: 32%;
+    }
+    #subNavLibrary a div {
+        font-size: 2.5vw;
+        line-height: 3vw;
     }
     #subNavLibrary li:hover .hiddenText {
         padding-top: 25%;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
+        line-height:3vw;
     }
     /* SITES */
     #sites li {
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin: 0.5%;
-        width: 24%;
-        padding-bottom: 24%;
+        width: 32%;
+        padding-bottom: 64%;
         background-color: #5c4562;
     }
     #sites li .hidden {
         display: none;
-        font-size: 1.1vw;
+        font-size: 2vw;
     }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         font-size: 150%;
     }
@@ -626,23 +628,38 @@ textArea {
         padding-bottom: 10%;
     }
     /* WEEKLY SESSIONS */
-    
     #scroll {
         width: 400%
     }
-    
-    #tod-weekly{
-        display:none;
+    #tod-weekly {
+        display: none;
+    }
+    /* LIBRARY */
+    #subNavLibrary li {
+        width: 49%;
+        padding-bottom: 49%;
+    }
+    #subNavLibrary li a div {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    #subNavLibrary li:hover .hiddenText {
+        padding-top: 0%;
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    #subNavLibrary ul {
+        padding-left: 0;
     }
     /* SITES */
     #sites li {
         font-size: 15px;
-        font-size: 3vw;
-        width: 32%;
-        padding-bottom: 32%;
+        font-size: 4vw;
+        width: 49%;
+        padding-bottom: 49%;
     }
     #sites li .hidden {
         display: none;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
