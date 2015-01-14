@@ -9,10 +9,7 @@
 body {
     font-family: quicksand;
     background-color: white;
-    min-width: 900px;
-
 }
-
 header {
     margin-right: 5%;
     margin-left: 5%;
@@ -150,9 +147,9 @@ footer a {
     color: white;
     text-align: center;
 }
-#language a{
+#language a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 #language li {
     font-size: 1vw;
@@ -165,13 +162,13 @@ footer a {
     top: 24px;
     right: -2.5vw;
 }
-#language a:hover{
+#language a:hover {
     text-decoration: none;
-    color:#24385D;
+    color: #24385D;
     background-color: white;
 }
-#language a:hover li{
-    background-color:white;
+#language a:hover li {
+    background-color: white;
 }
 .clear {
     clear: both;
@@ -247,16 +244,16 @@ footer a {
     line-height: 20px;
     margin-top: 2%;
 }
-/* Contact */ 
+/* Contact */
+
 .mailto {
- padding-bottom: 15%;   
-    
+    padding-bottom: 15%;
 }
 .mailto a:link {
     text-decoration: none;
 }
-
 /* FAQ's */
+
 .left-regular {
     width: 50%;
 }
@@ -301,18 +298,15 @@ textArea {
 }
 .faq .answer {
     display: none;
-    
 }
 .faq li:hover .answer {
     display: block;
     padding-top: 10px;
     padding-left: 10px;
-    
 }
-  #social > img {
-        display: none;
-    }
-
+#social > img {
+    display: none;
+}
 @media (max-width: 900px) {
     nav li {
         font-size: 1.5vw;
@@ -326,21 +320,12 @@ textArea {
     #socialNetwork {
         float: right;
     }
-      #socialDropDownMenu {
-        display: none;
-    }
     #mainLogo {
         float: left;
     }
-    /* INDEX */
-    .quotations {
-        font-size: 20px;
+    #subNav li {
+        font-size: 2vw;
     }
-    #quote {
-        font-size: 20px;
-    }
-
-    
 }
 @media (max-width: 600px) {
     body {
@@ -374,12 +359,17 @@ textArea {
         text-decoration: none;
         color: #b3b3b3;
     }
+    nav li a #current{
+    }
     nav:hover ul {
         display: block;
         position: absolute;
         top: 0px;
         overflow: visible;
         z-index: 10;
+    }
+    nav a li #current {
+        text-decoration: none;
     }
     nav ul li a:hover {
         color: white;
@@ -392,6 +382,7 @@ textArea {
     }
     #socialNetwork {
         text-align: center;
+        margin-bottom: -30px;
     }
     #language {
         position: relative;
@@ -426,13 +417,16 @@ textArea {
     }
     header #socialNetwork img {
         float: left;
-        margin-bottom: 2%;
+        margin-bottom: 2%
     }
     #social {
         position: relative;
     }
+    #social > img{
+        display:block;
+    }
     #social #socialDropDownMenu img {
-        width: 3%;
+        width: 8%;
         margin: 7%;
     }
     #social:hover #socialDropDownMenu {
@@ -442,10 +436,11 @@ textArea {
         top: 40px;
         z-index: 10;
         background-color: white;
-        border: 1px solid #24385D;
+        border: 1px solid #5c4562;
         width: 100%;
     }
-    .right-small {} #current {
+    
+    #current {
         color: white;
     }
     #wrapper {
@@ -456,16 +451,6 @@ textArea {
     }
     /* INDEX */
     #subNav li {
-        font-size: 2vw;
-    }
-    #quote {
-        display: none;
-    }
-    #source-quote {
-        display: none;   
-    }
-
-    #social > img {
-        display: block;
+        font-size: 3vw;
     }
 }
