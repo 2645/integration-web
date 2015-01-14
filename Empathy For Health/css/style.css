@@ -27,6 +27,9 @@ header #socialNetwork img {
     padding-left: 7px;
     margin-top: 20px;
 }
+#dropDownMenu {
+    display: none;
+}
 nav {
     margin: 0 auto;
     width: 64%;
@@ -306,7 +309,11 @@ textArea {
     padding-left: 10px;
     
 }
-@media screen and (max-width: 900px) {
+  #social > img {
+        display: none;
+    }
+
+@media (max-width: 900px) {
     nav li {
         font-size: 1.5vw;
         padding: 5px;
@@ -316,14 +323,14 @@ textArea {
         width: 100%;
         float: none;
     }
-    #language li {
-        font-size: 1.5vw;
+    #socialNetwork {
+        float: right;
     }
-    #language:hover ul {
-        display: block;
-        position: absolute;
-        top: 25px;
-        right: -4vw;
+      #socialDropDownMenu {
+        display: none;
+    }
+    #mainLogo {
+        float: left;
     }
     /* INDEX */
     .quotations {
@@ -332,105 +339,114 @@ textArea {
     #quote {
         font-size: 20px;
     }
-    /* AURELIS ONLINE */
-    .left-regular,
-    .right-regular {
-        float: none;
-        width: 100%;
-    }
-    /* WEEKLY SESSION */
-    #tod-weekly {
-        margin-top: 0%;
-        margin-left: -20px;
-        text-align: center;
-    }
-    /* LIBRARY */
-    #subNavLibrary li {
-        font-size: 2vw;
-        width: 24%;
-        padding-bottom: 24%;
-    }
-    #subNavLibrary li:hover .hiddenText {
-        padding-top: 25%;
-        font-size: 1.5vw;
-    }
-    /* SITES */
-    #sites li {
-        font-size: 1.5vw;
-        margin: 0.5%;
-        width: 24%;
-        padding-bottom: 24%;
-        background-color: #5c4562;
-    }
-    #sites li .hidden {
-        display: none;
-        font-size: 1.1vw;
-    }
+
+    
 }
-@media screen and (max-width: 900px) {
-    nav li {
-        font-size: 1.5vw;
-        padding: 5px;
-    }
-    .left-wide,
-    .right-small {
-        width: 100%;
-        float: none;
-    }
-    #language li {
-        font-size: 1.5vw;
-    }
-    #language:hover ul {
-        display: block;
-        position: absolute;
-        top: 25px;
-        right: -4vw;
-    }
-    /* INDEX */
-    .quotations {
-        font-size: 20px;
-    }
-    #quote {
-        font-size: 20px;
-    }
-    /* AURELIS ONLINE */
-    .left-regular,
-    .right-regular {
-        float: none;
-        width: 100%;
-    }
-    /* WEEKLY SESSION */
-    #tod-weekly {
-        margin-top: 0%;
-        margin-left: -20px;
-        text-align: center;
-    }
-    /* LIBRARY */
-    #subNavLibrary li {
-        font-size: 2vw;
-        width: 24%;
-        padding-bottom: 24%;
-    }
-    #subNavLibrary li:hover .hiddenText {
-        padding-top: 25%;
-        font-size: 1.5vw;
-    }
-    /* SITES */
-    #sites li {
-        font-size: 1.5vw;
-        margin: 0.5%;
-        width: 24%;
-        padding-bottom: 24%;
-        background-color: #5c4562;
-    }
-    #sites li .hidden {
-        display: none;
-        font-size: 1.1vw;
-    }
-}
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         font-size: 150%;
+    }
+    nav {
+        width: 100%;
+        position: relative;
+        margin-left: 6.5%;
+    }
+    nav ul {
+        display: none;
+        width: 100%;
+        padding: 0px;
+        margin-left: -6.5%;
+    }
+    nav li {
+        background-color: #24385D;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 8vw;
+    }
+    nav li:first-child {
+        text-align: center;
+    }
+    nav li:last-child {
+        text-align: center;
+    }
+    nav a {
+        text-decoration: none;
+        color: #b3b3b3;
+    }
+    nav:hover ul {
+        display: block;
+        position: absolute;
+        top: 0px;
+        overflow: visible;
+        z-index: 10;
+    }
+    nav ul li a:hover {
+        color: white;
+    }
+    #mainLogo {
+        text-align: center;
+    }
+    #dropDownMenu {
+        display: inline;
+    }
+    #socialNetwork {
+        text-align: center;
+    }
+    #language {
+        position: relative;
+    }
+    #language ul {
+        z-index: 10;
+        margin: 0;
+        color: white;
+        text-align: center;
+        width: 110%;
+    }
+    #language a {
+        text-decoration: none;
+        color: white;
+    }
+    #language li {
+        font-size: 8vw;
+        color: #b3b3b3
+    }
+    #language:hover ul {
+        display: block;
+        position: absolute;
+        top: 40px;
+    }
+    #language a:hover li {
+        text-decoration: none;
+        color: white;
+        background-color: #24385D;
+    }
+    #socialDropDownMenu {
+        display: none;
+    }
+    header #socialNetwork img {
+        float: left;
+        margin-bottom: 2%;
+    }
+    #social {
+        position: relative;
+    }
+    #social #socialDropDownMenu img {
+        width: 3%;
+        margin: 7%;
+    }
+    #social:hover #socialDropDownMenu {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        z-index: 10;
+        background-color: white;
+        border: 1px solid #24385D;
+        width: 100%;
+    }
+    .right-small {} #current {
+        color: white;
     }
     #wrapper {
         width: 90%;
@@ -445,34 +461,11 @@ textArea {
     #quote {
         display: none;
     }
-     #source-quote {
-        display: none;
+    #source-quote {
+        display: none;   
     }
-    /* ACADEMY */
-    #subNavScroll li {
-        font-size: 4vw;
-        margin: 0.5%;
-        width: 10.1%;
-        padding-bottom: 10%;
-    }
-    /* WEEKLY SESSIONS */
-    
-    #scroll {
-        width: 400%
-    }
-    
-    #tod-weekly{
-        display:none;
-    }
-    /* SITES */
-    #sites li {
-        font-size: 15px;
-        font-size: 3vw;
-        width: 32%;
-        padding-bottom: 32%;
-    }
-    #sites li .hidden {
-        display: none;
-        font-size: 2vw;
+
+    #social > img {
+        display: block;
     }
 }
