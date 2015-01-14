@@ -12,27 +12,9 @@ body {
     font-family: quicksand;
     background-color: white;
     /* custom scrollbar IE: */
-    scrollbar-face-color: #5c4562;
-    scrollbar-highlight-color: #5c4562;
-    scrollbar-track-color: rgba(156, 111, 163, 0.72);
-    scrollbar-arrow-color: #5c4562;
-    scrollbar-shadow-color: #5c4562;
-    scrollbar-dark-shadow-color: #5c4562;
-}
-/* custom scrollbar Chrome, Opera & safari*/
-
-::-webkit-scrollbar {
-    height: 10px;
-}
-::-webkit-scrollbar-track {
-    background-color: rgba(156, 111, 163, 0.72);
-}
-::-webkit-scrollbar-thumb {
-    background-color: #5c4562;
-    height: 20px;
 }
 #social > img {
-    display: none;   
+    display: none;
 }
 header {
     margin-right: 5%;
@@ -345,6 +327,24 @@ footer a {
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
+    scrollbar-face-color: #5c4562;
+    scrollbar-highlight-color: #5c4562;
+    scrollbar-track-color: rgba(156, 111, 163, 0.72);
+    scrollbar-arrow-color: #5c4562;
+    scrollbar-shadow-color: #5c4562;
+    scrollbar-dark-shadow-color: #5c4562;
+}
+/* custom scrollbar Chrome, Opera & safari*/
+
+#subNavScroll::-webkit-scrollbar {
+    height: 10px;
+}
+#subNavScroll::-webkit-scrollbar-track {
+    background-color: rgba(156, 111, 163, 0.72);
+}
+#subNavScroll::-webkit-scrollbar-thumb {
+    background-color: #5c4562;
+    height: 20px;
 }
 #scroll {
     width: 180%;
@@ -618,7 +618,7 @@ textArea {
 @media (max-width: 600px) {
     body {
         font-size: 150%;
-    }    
+    }
     nav {
         width: 100%;
         position: relative;
@@ -628,7 +628,7 @@ textArea {
         display: none;
         width: 100%;
         padding: 0px;
-        margin-left:-6.5%;
+        margin-left: -6.5%;
     }
     nav li {
         background-color: #5c4562;
@@ -703,19 +703,19 @@ textArea {
     #social {
         position: relative;
     }
-    #social #socialDropDownMenu img{
-        width:8%;
-        margin:7%;
+    #social #socialDropDownMenu img {
+        width: 8%;
+        margin: 7%;
     }
     #social:hover #socialDropDownMenu {
         display: inline-block;
         position: absolute;
-        left:0;
-        top:40px;
+        left: 0;
+        top: 40px;
         z-index: 10;
-        background-color:white;
-        border:1px solid #5c4562;
-        width:100%;
+        background-color: white;
+        border: 1px solid #5c4562;
+        width: 100%;
     }
     .right-small {} #current {
         color: white;
@@ -776,6 +776,6 @@ textArea {
         font-size: 3vw;
     }
     #social > img {
-        display: block;   
+        display: block;
     }
 }
