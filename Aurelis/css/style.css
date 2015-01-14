@@ -109,8 +109,8 @@ footer a {
     text-decoration: none;
     color: #5c4562;
 }
-#dropDownMenu{
-    display:none;
+#dropDownMenu {
+    display: none;
 }
 #current {
     padding-bottom: 10px;
@@ -557,6 +557,12 @@ textArea {
         width: 100%;
         float: none;
     }
+    #socialNetwork {
+        float: right;
+    }
+    #mainLogo {
+        float: left;
+    }
     /* INDEX */
     .quotations {
         font-size: 20px;
@@ -609,36 +615,24 @@ textArea {
 @media (max-width: 600px) {
     body {
         font-size: 150%;
-    }
-    #language:hover ul {
-        display: block;
-        position: absolute;
-        top: 25px;
-        right: -2.8vw;
-    }
-    #language a:hover {
-        text-decoration: none;
-        color: #5c4562;
-        background-color: white;
-    }
-    #language a:hover li {
-        background-color: white;
-    }
+    }    
     nav {
         width: 100%;
-        position:relative;
+        position: relative;
+        margin-left: 6.5%;
     }
     nav ul {
         display: none;
         width: 100%;
         padding: 0px;
+        margin-left:-6.5%;
     }
     nav li {
         background-color: #5c4562;
-        color:white;
+        color: white;
         display: block;
         text-align: center;
-        font-size:8vw;
+        font-size: 8vw;
     }
     nav li:first-child {
         text-align: center;
@@ -650,21 +644,78 @@ textArea {
         text-decoration: none;
         color: #b3b3b3;
     }
-    nav:hover ul{
-        display:block;
-        position:absolute;
-        top:0px;
+    nav:hover ul {
+        display: block;
+        position: absolute;
+        top: 0px;
         overflow: visible;
-        z-index:10;
+        z-index: 10;
     }
-    nav ul li a:hover{
-        color:white;
+    nav ul li a:hover {
+        color: white;
     }
-    #dropDownMenu{
-        display:block;
+    #mainLogo {
+        text-align: center;
     }
-    #current{
-        color:white;
+    #dropDownMenu {
+        display: inline;
+    }
+    #socialNetwork {
+        text-align: center;
+    }
+    #language {
+        position: relative;
+    }
+    #language ul {
+        z-index: 10;
+        margin: 0;
+        color: white;
+        text-align: center;
+        width: 110%;
+    }
+    #language a {
+        text-decoration: none;
+        color: white;
+    }
+    #language li {
+        font-size: 8vw;
+        color: #b3b3b3
+    }
+    #language:hover ul {
+        display: block;
+        position: absolute;
+        top: 40px;
+    }
+    #language a:hover li {
+        text-decoration: none;
+        color: white;
+        background-color: #5c4562;
+    }
+    #socialDropDownMenu {
+        display: none;
+    }
+    header #socialNetwork img {
+        float: right;
+    }
+    #social {
+        position: relative;
+    }
+    #social #socialDropDownMenu img{
+        width:8%;
+        margin:7%;
+    }
+    #social:hover #socialDropDownMenu {
+        display: inline-block;
+        position: absolute;
+        left:0;
+        top:40px;
+        z-index: 10;
+        background-color:white;
+        border:1px solid #5c4562;
+        width:100%;
+    }
+    .right-small {} #current {
+        color: white;
     }
     #wrapper {
         width: 90%;
