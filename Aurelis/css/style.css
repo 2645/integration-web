@@ -444,6 +444,7 @@ textArea {
     line-height: 0;
 }
 #subNavLibrary li {
+    font-family: quicksand;
     line-height: 14px;
     font-size: 14px;
     width: 15.6%;
@@ -594,6 +595,7 @@ textArea {
         padding-bottom: 32%;
     }
     #subNavLibrary a div {
+        font-family: quicksand;
         font-size: 2.5vw;
         line-height: 3vw;
     }
@@ -754,6 +756,7 @@ textArea {
         padding-bottom: 49%;
     }
     #subNavLibrary li a div {
+         font-family: quicksand;
         font-size: 4vw;
         line-height: 4vw;
     }
