@@ -31,6 +31,9 @@ body {
     background-color: #5c4562;
     height: 20px;
 }
+#social > img {
+    display: none;   
+}
 header {
     margin-right: 5%;
     margin-left: 5%;
@@ -771,5 +774,8 @@ textArea {
     #sites li .hidden {
         display: none;
         font-size: 3vw;
+    }
+    #social > img {
+        display: block;   
     }
 }
