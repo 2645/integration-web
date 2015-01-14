@@ -109,6 +109,9 @@ footer a {
     text-decoration: none;
     color: #5c4562;
 }
+#dropDownMenu{
+    display:none;
+}
 #current {
     padding-bottom: 10px;
     color: black;
@@ -588,7 +591,7 @@ textArea {
     #subNavLibrary li:hover .hiddenText {
         padding-top: 25%;
         font-size: 2.5vw;
-        line-height:3vw;
+        line-height: 3vw;
     }
     /* SITES */
     #sites li {
@@ -606,6 +609,62 @@ textArea {
 @media (max-width: 600px) {
     body {
         font-size: 150%;
+    }
+    #language:hover ul {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: -2.8vw;
+    }
+    #language a:hover {
+        text-decoration: none;
+        color: #5c4562;
+        background-color: white;
+    }
+    #language a:hover li {
+        background-color: white;
+    }
+    nav {
+        width: 100%;
+        position:relative;
+    }
+    nav ul {
+        display: none;
+        width: 100%;
+        padding: 0px;
+    }
+    nav li {
+        background-color: #5c4562;
+        color:white;
+        display: block;
+        text-align: center;
+        font-size:8vw;
+    }
+    nav li:first-child {
+        text-align: center;
+    }
+    nav li:last-child {
+        text-align: center;
+    }
+    nav a {
+        text-decoration: none;
+        color: #b3b3b3;
+    }
+    nav:hover ul{
+        display:block;
+        position:absolute;
+        top:0px;
+        overflow: visible;
+        z-index:10;
+    }
+    nav ul li a:hover{
+        color:white;
+    }
+    #dropDownMenu{
+        display:block;
+    }
+    #current{
+        color:white;
     }
     #wrapper {
         width: 90%;
