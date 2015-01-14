@@ -442,7 +442,10 @@ textArea {
     #subNav li {
         font-size: 2vw;
     }
-    #tod-aurelis {
+    #quote {
+        display: none;
+    }
+     #source-quote {
         display: none;
     }
     /* ACADEMY */
