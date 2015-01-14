@@ -10,25 +10,9 @@ body {
     font-family: quicksand;
     background-color: white;
     min-width: 900px;
-       /* custom scrollbar IE: */
-    scrollbar-face-color: #5c4562;
-    scrollbar-highlight-color: #5c4562;
-    scrollbar-track-color: rgba(156,111,163,0.72);
-    scrollbar-arrow-color: #5c4562;
-    scrollbar-shadow-color: #5c4562;
-    scrollbar-dark-shadow-color: #5c4562;
+
 }
-/* custom scrollbar Chrome, Opera & safari*/
-::-webkit-scrollbar {
-    height: 10px;
-}
-::-webkit-scrollbar-track {
-    background-color: rgba(36, 56, 93, 0.50);
-}
-::-webkit-scrollbar-thumb {
-    background-color: #24385D;
-    height: 20px;
-}
+
 header {
     margin-right: 5%;
     margin-left: 5%;
@@ -321,4 +305,171 @@ textArea {
     padding-top: 10px;
     padding-left: 10px;
     
+}
+@media screen and (max-width: 900px) {
+    nav li {
+        font-size: 1.5vw;
+        padding: 5px;
+    }
+    .left-wide,
+    .right-small {
+        width: 100%;
+        float: none;
+    }
+    #language li {
+        font-size: 1.5vw;
+    }
+    #language:hover ul {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: -4vw;
+    }
+    /* INDEX */
+    .quotations {
+        font-size: 20px;
+    }
+    #quote {
+        font-size: 20px;
+    }
+    /* AURELIS ONLINE */
+    .left-regular,
+    .right-regular {
+        float: none;
+        width: 100%;
+    }
+    /* WEEKLY SESSION */
+    #tod-weekly {
+        margin-top: 0%;
+        margin-left: -20px;
+        text-align: center;
+    }
+    /* LIBRARY */
+    #subNavLibrary li {
+        font-size: 2vw;
+        width: 24%;
+        padding-bottom: 24%;
+    }
+    #subNavLibrary li:hover .hiddenText {
+        padding-top: 25%;
+        font-size: 1.5vw;
+    }
+    /* SITES */
+    #sites li {
+        font-size: 1.5vw;
+        margin: 0.5%;
+        width: 24%;
+        padding-bottom: 24%;
+        background-color: #5c4562;
+    }
+    #sites li .hidden {
+        display: none;
+        font-size: 1.1vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    nav li {
+        font-size: 1.5vw;
+        padding: 5px;
+    }
+    .left-wide,
+    .right-small {
+        width: 100%;
+        float: none;
+    }
+    #language li {
+        font-size: 1.5vw;
+    }
+    #language:hover ul {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: -4vw;
+    }
+    /* INDEX */
+    .quotations {
+        font-size: 20px;
+    }
+    #quote {
+        font-size: 20px;
+    }
+    /* AURELIS ONLINE */
+    .left-regular,
+    .right-regular {
+        float: none;
+        width: 100%;
+    }
+    /* WEEKLY SESSION */
+    #tod-weekly {
+        margin-top: 0%;
+        margin-left: -20px;
+        text-align: center;
+    }
+    /* LIBRARY */
+    #subNavLibrary li {
+        font-size: 2vw;
+        width: 24%;
+        padding-bottom: 24%;
+    }
+    #subNavLibrary li:hover .hiddenText {
+        padding-top: 25%;
+        font-size: 1.5vw;
+    }
+    /* SITES */
+    #sites li {
+        font-size: 1.5vw;
+        margin: 0.5%;
+        width: 24%;
+        padding-bottom: 24%;
+        background-color: #5c4562;
+    }
+    #sites li .hidden {
+        display: none;
+        font-size: 1.1vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 150%;
+    }
+    #wrapper {
+        width: 90%;
+    }
+    #backToTop {
+        right: 0%;
+    }
+    /* INDEX */
+    #subNav li {
+        font-size: 2vw;
+    }
+    #tod-aurelis {
+        display: none;
+    }
+    /* ACADEMY */
+    #subNavScroll li {
+        font-size: 4vw;
+        margin: 0.5%;
+        width: 10.1%;
+        padding-bottom: 10%;
+    }
+    /* WEEKLY SESSIONS */
+    
+    #scroll {
+        width: 400%
+    }
+    
+    #tod-weekly{
+        display:none;
+    }
+    /* SITES */
+    #sites li {
+        font-size: 15px;
+        font-size: 3vw;
+        width: 32%;
+        padding-bottom: 32%;
+    }
+    #sites li .hidden {
+        display: none;
+        font-size: 2vw;
+    }
 }
