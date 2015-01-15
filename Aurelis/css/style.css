@@ -234,6 +234,8 @@ footer a {
 }
 /* AurelisOnline*/
 
+/* AurelisOnline*/
+
 #aurelisOnlineLink {
     text-align: center;
 }
@@ -271,6 +273,7 @@ footer a {
     width: 63%;
     background-color: #DED9DF;
     font-family: "aftaserif";
+    font-size:18px;
 }
 .loginVoornaam {
     margin-top: 27%;
@@ -281,7 +284,7 @@ footer a {
 .forgot {
     float: right;
     margin-right: 16%;
-    font-size: 0.75em;
+    font-size: 0.8em;
     text-decoration: none;
     color: #FFF;
     font-family: aftaserif;
@@ -298,6 +301,7 @@ footer a {
     color: #FFF;
     float: left;
     font-family: aftaserif;
+    font-size:16px;
 }
 .account {
     font-size: 0.85em;
@@ -319,6 +323,7 @@ footer a {
     color: #FFF;
     float: left;
     font-family: aftaserif;
+    font-size:16px;
 }
 /* Academy */
 
