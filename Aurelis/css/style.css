@@ -474,11 +474,11 @@ textArea {
 #subNavLibrary a div {
     width: 100%;
     height: 0;
-    padding-bottom: 100%;
+    padding-top:30%;
     font-size: 1vw
 }
 #subNavLibrary a:hover div {
-    padding-bottom: 70%;
+    padding-bottom: 40%;
 }
 #subNavLibrary a:hover .hiddenText {
     display: inline-block;
